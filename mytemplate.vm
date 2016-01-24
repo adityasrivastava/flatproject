@@ -1,0 +1,13 @@
+
+<products>
+  #foreach( $name in $allProducts )
+    <product>
+	<name>$name.item</name>
+	<price>$name.price</price>
+	<discount>$name.discount</discount>
+	<total>$name.total</total>
+    </product>
+  #end
+</products>
+
+
